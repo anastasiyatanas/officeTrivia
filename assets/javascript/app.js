@@ -9,7 +9,7 @@ $('#start').on('click', function(){
 var game = {
   questions:questions,
   currentQuestions:0,
-  counter:20,
+  counter:30,
   correct:0,
   incorrect:0,
   
@@ -17,34 +17,49 @@ var game = {
 
 var questions = [
   {
-      question: "According to Phoebe, what is a lobster?",
-      answers: ["Something expensive you eat.", "A person whom another is meant to be with forever.", "A dance move.", "A slang word."],
-      answer: "A person whom another is meant to be with forever."
+      question: "What Dundies award does Phyllis take home?",
+      answers: ["The Busiest Beaver  Dundie", "The Bushiest Beaver dundie", "Spicy Curry Dundie", "Whitest Sneakers Dundie"],
+      answer: "The Bushiest Beaver dundie"
   },
   {
-      question: "What two people never get together romantically?",
-      answers: ["Monica and Chandler.", "Joey and Rachel", "Joey and Phoebe", "Ross and Rachel"],
-      answer: "Joey and Phoebe"
+      question: "What is the book Michael Scott wrote",
+      answers: ["The Great Adventures of Michael Scott", "Somehow I Manage", "Golden Face", "Thats What She Said"],
+      answer: "Somehow I Manage"
   },
   {
-      question: "What was thefirst outfit we see Rachel in the pilot episode?",
-      answers: ["A wedding dress.", "Jeans and a jacket.", "A red rain coat", "Her work uniform."],
-      answer: "A wedding dress."
+      question: "Who does Angela name her son after?",
+      answers: ["The mayer", "Her grandmother", "Her cat", "A Bible Character"],
+      answer: "Her cat"
   },
   {
-      question: "What is Dwight's Sensei's name?",
-      answers: ["Stuart", "Mr. Miyagi", "George", "Ira"],
-      answer: "a nubbin"
+      question: "Who did Phyllis stuff into a drawer?",
+      answers: ["Angelas cat", "Jesus", "Santa Clause", "Dwight"],
+      answer: "Jesus"
   },
   {
-      question: "Who's the first to find out about Monica and Chandler?",
-      answers: ["Phoebe", "Ross", "Rachel", "Joey"],
-      answer: "Joey"
-  },    
+      question: "'There's too many people on this Earth. We need a new plague.'",
+      answers: ["Stanly", "Dwight", "Kevin", "Michael"],
+      answer: "Dwight"
+  },   
   {
-    question: "'WE WERE ON A BREAK!'",
-    answers: ["Monica", "Ross", "Chandler", "Joey"],
-    answer: "Ross"
+    question: "How do Schrutes make sure that the dead the bury are truly dead?",
+    answers: ["dig up the  grave a week later.", "leave them out for a week", "beat them with a bat", "Shotgun to the face"],
+    answer: "Shotgun to the face"
+},
+{
+    question: "In which business does Dwight steal the chandelier in his perfect crime?",
+    answers: ["Shane Co", "Tiffanys", "Walmart", "The Beet Farm"],
+    answer: "Jesus"
+},
+{
+    question: "'I like waking up to  the smell of bacon. Sue Me'",
+    answers: ["Meradeth", "Erin", "Kevin", "Michael"],
+    answer: "Michael"
+},   
+  {
+    question: "Who  has a worm guy?",
+    answers: ["Creed", "Kelly", "Andy", "Erin"],
+    answer: "Creed"
 }
 ];
 
