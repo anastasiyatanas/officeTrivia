@@ -9,7 +9,7 @@ $('#start').on('click', function(){
 var game = {
   questions:questions,
   currentQuestions:0,
-  counter:30,
+  counter:40,
   correct:0,
   incorrect:0,
   
